@@ -17,12 +17,12 @@
     />
     <meta
       name="description"
-      content="programmer, web designer, head of BaziNex."
+      content="Official page of Abolfazl Sadeghian Majd. Full-stack programmer, web designer, and Head of BaziNex."
     />
     <meta property="og:title" content="Abolfazl Sadeghian Majd" />
     <meta
       property="og:description"
-      content="programmer, web designer, head of BaziNex."
+      content="Programmer, web designer, and head of BaziNex."
     />
     <meta property="twitter:card" content="summary" />
 
@@ -38,8 +38,12 @@
           "name": "Abolfazl Sadeghian Majd",
           "givenName": "Abolfazl",
           "familyName": "Sadeghian Majd",
-          "alternateName": "",
-          "description": "programmer, web designer, head of BaziNex.",
+          "jobTitle": "Programmer & Web Designer",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "BaziNex"
+          },
+          "description": "Programmer, web designer, and head of BaziNex.",
           "url": "https://sadeghianam.github.io/",
           "sameAs": [
             "https://github.com/SadeghianAM",
@@ -116,10 +120,12 @@
         zoom: 1.1;
       }
 
+      /* SEO: Changed to H1 for better Indexing hierarchy */
       .main-name {
         font-size: 30px;
         display: block;
         margin-bottom: 5px;
+        margin-top: 0;
       }
 
       .section-title {
@@ -241,13 +247,16 @@
           padding: 15px;
           zoom: 1;
         }
+        :root {
+          cursor: auto;
+        }
       }
     </style>
   </head>
   <body>
     <main>
       <div>
-        <b class="main-name">Abolfazl Sadeghian Majd</b>
+        <h1 class="main-name">Abolfazl Sadeghian Majd</h1>
         a Gamer, Geek, and sometimes even a Programmer!
       </div>
 
@@ -256,7 +265,7 @@
         <a
           class="link"
           href="https://github.com/SadeghianAM"
-          rel="me"
+          rel="me noopener noreferrer"
           aria-label="GitHub"
         >
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -270,7 +279,7 @@
         <a
           class="link"
           href="https://t.me/iiSADEGHIAN"
-          rel="me"
+          rel="me noopener noreferrer"
           aria-label="Telegram"
         >
           <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
@@ -281,7 +290,12 @@
           @iiSADEGHIAN
         </a>
 
-        <a class="link" href="https://x.com/RaaDaaHN" rel="me" aria-label="X">
+        <a
+          class="link"
+          href="https://x.com/RaaDaaHN"
+          rel="me noopener noreferrer"
+          aria-label="X"
+        >
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path
               d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"
@@ -293,7 +307,7 @@
         <a
           class="link"
           href="https://instagram.com/Sadeghian.AM"
-          rel="me"
+          rel="me noopener noreferrer"
           aria-label="Instagram"
         >
           <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
@@ -307,7 +321,7 @@
         <a
           class="link"
           href="https://www.linkedin.com/in/SadeghianAM"
-          rel="me"
+          rel="me noopener noreferrer"
           aria-label="LinkedIn"
         >
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -342,13 +356,15 @@
 
       <span class="section-title">Projects:</span>
       <div class="links">
-        <a class="link" href="https://bazinex.com">BaziNex</a>
-        <a class="link" href="https://store.bazinex.com">BaziNex Store</a>
-        <a class="link" href="https://igdb.ir">IGDB.ir</a>
+        <a class="link" href="https://bazinex.com" rel="noopener">BaziNex</a>
+        <a class="link" href="https://store.bazinex.com" rel="noopener"
+          >BaziNex Store</a
+        >
+        <a class="link" href="https://igdb.ir" rel="noopener">IGDB.ir</a>
       </div>
 
       <div class="steamdb">
-        For all inquiries about BaziNex projects, contact via the email above.
+        For all inquiries about all projects, contact via the Telegram above.
       </div>
     </main>
 
